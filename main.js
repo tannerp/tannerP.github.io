@@ -11,13 +11,15 @@ document.querySelector('#app').innerHTML = `
 
 document.querySelector('head').html = `
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4SKT6L4DPS"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NF8BWJ4213"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-  gtag('config', 'G-4SKT6L4DPS');
+
+  gtag('config', 'G-NF8BWJ4213');
 </script>
+
 `
 
 setupCounter(document.querySelector('#counter'))
