@@ -26,10 +26,10 @@ a:hover {
 body {
   background-color: black;
   margin: 0;
-  display: inline-block;
+  display: block;
   place-items: center;
-  min-width: 100vw;
-  min-height: 100vh;
+  /* min-width: 100vw; */
+  /* min-height: 100vh; */
 }
 
 h1 {
@@ -46,31 +46,28 @@ h1 {
 }
 
 .video-container {
-  position: absolute;
+  position: block;
   width:100%;
-  height: 100%;
+  height: auto;
 }
 
 .video-container iframe {
-  position: static;
-  left: 0;
+  padding: 3%
 }
 
 
 @media only screen and (orientation: portrait) {
   .video-container iframe {
-    top: 5%;
-    width: 100%;
-    height: 90%;
+    width: 90vw;
+    height: 100vh;
   }
 }
 
 
 @media only screen and (orientation: landscape) {
   .video-container iframe {
-    padding-right: 5% ;
-    width: 100%;
-    height: 98%;
+    width: 90vw;
+    height: 100vh;
   }
 }
 
