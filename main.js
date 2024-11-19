@@ -8,17 +8,15 @@ document.querySelector('#app').innerHTML = `
 `
 
 
-document.querySelector('head').html = `
-<!-- Google tag (gtag.js) -->
-<script async src="https://youtube.com/playlist?list=PLZm7JLb1oQvLaFPVSaki9FWkkO03c-yfs&si=2NCM6b8AvZMCXobZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NF8BWJ4213');
-</script>
-
-`
+// document.querySelector('head').html = `
+// <!-- Google tag (gtag.js) -->
+// <script async src="https://youtube.com/playlist?list=PLZm7JLb1oQvLaFPVSaki9FWkkO03c-yfs&si=2NCM6b8AvZMCXobZ"></script>
+// <script>
+//   window.dataLayer = window.dataLayer || [];
+//   function gtag(){dataLayer.push(arguments);}
+//   gtag('js', new Date());
+//   gtag('config', 'G-NF8BWJ4213');
+// </script>
+// `
 
 setupCounter(document.querySelector('#counter'))
